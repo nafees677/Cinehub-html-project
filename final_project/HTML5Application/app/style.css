@@ -1,0 +1,124 @@
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+	
+}
+#container{
+	
+	width:1200px;
+	height:800px;
+	margin:0 auto;
+	/*margin-top:50px;*/
+	border:1px solid grey;
+        background-image:url('./action/images.jpg');
+        
+	}
+        table, th, td{
+	border:2px solid #666;
+	border-collapse:collapse;
+	/*border-width: 50px;*/
+	width:700px;
+}
+#head{
+        
+        padding: 10px;
+	}
+	#nav{
+            background:black;
+	    width:1200px;
+	    height:50px;                 
+        }
+        .ul{
+            margin :0px;
+            padding: 0px;
+            list-style: none;
+        }
+        .ul .li{
+            float: left;
+            width: 150px;
+            height: 50px;
+            line-height: 50px;
+            background: black;
+            text-align:center;
+            
+        }
+       
+        .ul .li a{
+            text-decoration: none;
+            color : white;
+            display: block;
+        }
+        .ul .li a:hover{
+            background-color: green;
+        }
+        .ul .li .ul .li{
+           align: left;
+           display: none;
+           background: black;
+           width: 100%;
+            
+        }
+        .ul .li:hover .ul .li{
+           display: block;
+           opacity: 1;        
+        }
+table{
+	margin-top:70px;
+}
+th{
+	color : white;
+	background:gray;
+}
+#th1{
+	text-transform:uppercase;
+	letter-spacing:8px;
+	font-weight:bolder;
+	word-spacing: 20px;
+	color: white;
+	background:green;	
+}
+input[type="submit"]{
+	color:white;
+	background:green;
+	width:100px;
+	height: 40px;
+}
+input[type="reset"]{
+	color:white;
+	background:red;
+	width:100px;
+	height: 40px;
+}
+.body{
+    
+    height: 1000px;
+    
+}
+.ul2{
+    list-style: none;
+    padding: 20px;
+    
+    height: 400px;
+    backface:white;
+    
+}
+.ul2 .li2{
+    float: left;
+    width: 232px;
+    align-items: center;
+}
+.ww{
+    padding: 20px;
+    font-size: 20px;
+    font-family:arial;
+}    
+.order{
+    align: center;
+    padding-left: 15em;
+    
+}
+.name{
+    text-decoration: none;
+    color:#664f27 ;
+    
+}
